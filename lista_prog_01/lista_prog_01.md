@@ -1,19 +1,10 @@
-# Instruções
+## Cabeçalho
 
-- Faça uma cópia deste arquivo .md para um repositório próprio
-- Resolva as 6 questões objetivas assinalando a alternativa correta
-- Resolva as 4 questões dissertativas escrevendo no próprio arquivo .md
-  - lembre-se de utilizar as estruturas de código como ``esta aqui com ` `` ou
-```javascript
-//esta aqui com ```
-let a = "olá"
-let b = 10
-print(a)
-```
-- Resolva as questões com uso do Visual Studio Code ou ambiente similar.
-- Teste seus códigos antes de trazer a resposta para cá.
-- Cuidado com ChatGPT e afins: entregar algo só para ganhar nota não faz você aprender e ficar mais inteligente. Não seja dependente da máquina!
-- ao final, publique seu arquivo lista_01.md com as respostas em seu repositório, e envie o link pela Adalove. 
+<b> Nome: </b> Vinicius Testa Passos
+<b> RA: </b>A2024.1A.0241
+<b> Professor(a):</b> Kizzy Terra
+<b> Matéria: </b> Programação
+<b> Data: </b> 08/03/2024
 
 # Questões objetivas
 
@@ -25,12 +16,6 @@ Escolha a opção que responde corretamente:
 
 ##### a) Imprime os números pares de 1 a 10.
 
-b) Imprime os números ímpares de 1 a 10.
-
-c) Imprime os números pares de 2 a 10.
-
-d) Imprime os números ímpares de 2 a 10.
-
 ______
 
 **2)** Identificar a linha que falta no código para criar uma classe Veiculo com atributo marca, e uma classe Carro que herda de Veiculo com um método ligar(). 
@@ -40,12 +25,6 @@ ______
 No lugar onde está escrito “// linha” qual das opções abaixo deve estar para funcionar corretamente o código?
 
 ##### A) let carro = new Carro("Toyota");
-
-B) let ligar = new ligar("Toyota");
-
-C) class Moto extends Veiculo {};
-
-D) carro1.ligar();
 
 ______
 
@@ -57,35 +36,17 @@ Escolha a opção que responde corretamente:
 
 ##### A) 18
 
-B) 16
-
-C) 14
-
-D) 12
-
 ______
 
 **4)** Como você criaria um método `acelerar()` em uma classe `Carro`, que recebe um parâmetro `velocidade` e o adiciona a um atributo `velocidadeAtual`?
 
 ##### A) CORRETA ![Uma imagem](assets/ex04_1.PNG)
 
-B) ![Uma imagem](assets/ex04_2.PNG)
-
-C) ![Uma imagem](assets/ex04_3.PNG)
-
-D) ![Uma imagem](assets/ex04_4.PNG)
-
 ______
 
 **5)** Qual a forma correta de definir uma classe Carro em JavaScript, com um método ligar() e um atributo marca?
 
 ##### A) CORRETA ![Uma imagem](assets/ex05_1.PNG)
-
-B) ![Uma imagem](assets/ex05_2.PNG)
-
-C) ![Uma imagem](assets/ex05_3.PNG)
-
-D) ![Uma imagem](assets/ex05_4.PNG)
 
 ______
 
@@ -96,12 +57,6 @@ ______
 Qual será a saída do código acima?
 
 ##### A) "Olá, meu nome é João. Olá, meu nome é Maria."
-
-B) "Olá, meu nome é ."
-
-C) "João Maria"
-
-D) "undefined undefined"
 
 ______
 
@@ -120,6 +75,7 @@ Criando e manipulando Animais:
 
 Dica: Utilize `console.log()` para exibir as informações!
 
+## Resposta:
 ```javascript
 class Animal {
   constructor(nome, idade) {
@@ -164,6 +120,7 @@ Chamando os Métodos:
 
 Dica: Utilize console.log() para exibir as informações!
 
+## Resposta:
 ```javascript
 class Animal {
   constructor(nome, idade) {
@@ -216,6 +173,7 @@ Chamando o Método para Ver o Total:
 
 Dica: Utilize console.log() para exibir as informações!
 
+## Resposta:
 ```javascript
 class SomadorDeNotas {
   total = 0;
@@ -255,6 +213,8 @@ Agora, sua tarefa é escrever um código em JavaScript que crie as classes Funci
 - Para cada objeto, chame o método calcularSalario() e mostre o salário calculado no console.
 
 Certifique-se de explicar cada parte do código utilizando comentários, explicando para que serve cada atributo e método, bem como a lógica por trás do cálculo de salário para o tipo de funcionário Professor.
+
+## Resposta:
 
 ```javascript 
 class Funcionario {
